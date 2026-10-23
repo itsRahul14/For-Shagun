@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f0e6">
+  <meta name="description" content="A little personal story and heartfelt note for Shagun.">
+  <title>For Shagun ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to experience</a>
+  <header class="site-top" aria-label="Experience controls">
+    <a class="wordmark" href="#opening" aria-label="For Shagun home"><span class="wordmark-mark">↗</span> for Shagun <span class="wordmark-dot">♡</span></a>
+    <div class="top-note"><span class="tiny-sun" aria-hidden="true">✳</span> a small story about the little things that stay with us</div>
+  </header>
+
+  <main id="main">
+    <section class="stage question-stage active" id="readyQuestion" aria-labelledby="ready-title">
+      <div class="question-topline"><span class="eyebrow-line"></span><p class="eyebrow">A VERY IMPORTANT LITTLE QUESTION</p></div>
+      <div class="question-heading-row"><h1 id="ready-title">Are you ready<br><em>to play?</em></h1><p class="question-aside">Nothing serious, promise. Just pick a little challenge…<br>and maybe discover there is someone who makes<br>your day a bit brighter.</p></div>
+      <div class="question-card" id="questionCard"><div class="question-sparkles" aria-hidden="true">✦　♡　✦</div><p class="eyebrow">BEFORE WE BEGIN…</p><h2 id="questionPrompt">So, are you ready to play?</h2><p class="question-subtitle" id="questionSubtitle">There are no wrong answers. Well… maybe one or two silly ones.</p><div class="question-options" id="questionOptions"><button class="button button-primary" id="readyYes">Obviously, let's go! ✨</button><button class="button button-outline" id="readyMaybe">Hmm… convince me 👀</button></div><div class="answer-reveal" id="answerReveal" role="status" aria-live="polite" hidden></div><button class="button button-primary question-continue" id="questionContinue" hidden>Okay, show me the little story →</button></div>
+      <div class="question-bottom"><span>MADE WITH A LITTLE THOUGHT</span><span>NO PRESSURE. JUST A LITTLE SOMETHING FOR YOU. ✳</span></div>
+    </section>
+    <section class="stage opening" id="opening" hidden aria-labelledby="opening-title">
+      <div class="opening-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE NOTE FOR SHAGUN</p>
+        <h1 id="opening-title">Hey, <span data-content="herName">[HER_NAME]</span>.<br><em>A little note</em><br>just for you.</h1>
+        <p class="intro-copy" data-content="openingText">Nothing grand. Just a tiny journey for someone who makes an ordinary ride a little brighter.</p>
+        <div class="opening-actions"><button class="button button-primary" id="startRide">Start the ride <span aria-hidden="true">→</span></button></div>
+        <p class="micro-copy"><span class="micro-dot"></span> Best enjoyed at your own pace.</p>
+      </div>
+      <div class="opening-art" aria-label="Illustration of a little university bus on a winding road" role="group">
+        <button class="sun-disc" id="sunSurprise" type="button" aria-label="Tap the sun for a tiny surprise" title="Psst… tap me"><span aria-hidden="true">☼</span></button><div class="sun-hint" aria-hidden="true">psst… tap the sun <span>↙</span></div><div class="sun-message" id="sunMessage" role="status" aria-live="polite" hidden></div><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <svg class="opening-landscape" viewBox="0 0 620 420" aria-hidden="true">
+          <path d="M0 240 C90 195 143 234 220 208 S360 166 438 210 S540 248 620 190 L620 420 L0 420Z" fill="#dce4d3"/>
+          <path d="M0 300 C110 270 180 310 270 282 S440 255 620 310 L620 420 L0 420Z" fill="#b7c9ad"/>
+          <path d="M-30 370 C110 330 180 388 278 345 S445 292 660 354" fill="none" stroke="#e5c879" stroke-width="64" stroke-linecap="round"/>
+          <path d="M-30 370 C110 330 180 388 278 345 S445 292 660 354" fill="none" stroke="#f8edcf" stroke-width="3" stroke-dasharray="12 12"/>
+          <g class="tree tree-a"><path d="M70 290v-38" stroke="#647c63" stroke-width="8" stroke-linecap="round"/><circle cx="70" cy="241" r="24" fill="#647c63"/><circle cx="54" cy="252" r="14" fill="#789176"/></g>
+          <g class="tree tree-b"><path d="M525 295v-43" stroke="#647c63" stroke-width="8" stroke-linecap="round"/><circle cx="525" cy="238" r="27" fill="#647c63"/><circle cx="543" cy="251" r="14" fill="#789176"/></g>
+          <g class="bus-driving"><animateTransform attributeName="transform" type="translate" values="0 0; 30 -13; 76 0; 112 -7; 76 0; 30 -10; 0 0" dur="44s" repeatCount="indefinite" additive="sum"/><g class="bus-illustration" transform="translate(195 215)">
+            <ellipse cx="115" cy="105" rx="119" ry="12" fill="#334a52" opacity=".12"/>
+            <path d="M20 25Q20 8 39 8H174Q196 8 202 30L213 78Q216 91 200 91H20Q9 91 9 79V40Q9 25 20 25Z" fill="#647c63" stroke="#334a52" stroke-width="3"/>
+            <path d="M36 20H82V53H29V29Q29 20 36 20Z" fill="#d8e6e5" stroke="#334a52" stroke-width="2"/><path d="M91 20H132V53H91Z" fill="#d8e6e5" stroke="#334a52" stroke-width="2"/><path d="M141 20H170Q179 20 183 31L189 53H141Z" fill="#d8e6e5" stroke="#334a52" stroke-width="2"/>
+            <path d="M20 62H197L202 79H20Z" fill="#ebcb78"/><rect x="42" y="67" width="72" height="5" rx="2.5" fill="#334a52" opacity=".6"/><circle cx="49" cy="91" r="15" fill="#334a52"/><circle cx="49" cy="91" r="7" fill="#f5f0e6"/><circle cx="176" cy="91" r="15" fill="#334a52"/><circle cx="176" cy="91" r="7" fill="#f5f0e6"/><rect x="196" y="61" width="8" height="9" rx="2" fill="#f7e3a8"/>
+          </g>
+          </g><g class="scene-sparkles" fill="#fffdf7"><path d="M115 168l4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/><path d="M452 156l3 7 7 3-7 3-3 7-3-7-7-3 7-3Z"/><circle cx="488" cy="177" r="3"/></g><g fill="#647c63"><circle cx="137" cy="125" r="3"/><circle cx="147" cy="117" r="2"/><circle cx="461" cy="115" r="3"/></g>
+        </svg>
+        <div class="scene-stamp" aria-hidden="true"><span class="stamp-spark">✳</span><span>THE SCENIC<br>ROUTE</span><small>EST. ONE SMILE AGO</small></div><div class="scene-route-note" aria-hidden="true"><span class="route-note-dot"></span><span>next stop</span><strong>a little smile</strong><span class="route-note-arrow">↗</span></div><div class="art-caption"><span>ROUTE 01</span><span>some little things stay with us</span></div>
+      </div>
+      <div class="opening-footer"><span>MADE WITH A LITTLE THOUGHT</span><span>SCROLL LESS. ENJOY THE RIDE. ↘</span></div>
+    </section>
+
+    <section class="stage journey" id="journey" aria-labelledby="journey-title" hidden>
+      <div class="section-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> YOUR LITTLE ROUTE</p>
+        <h2 id="journey-title">The little things<br><em>along the way.</em></h2>
+        <p class="section-intro">Some moments are small while they happen, then somehow stay with us. Take your time.</p>
+      </div>
+      <div class="route-layout">
+        <div class="route-map">
+          <svg class="route-line" viewBox="0 0 540 490" preserveAspectRatio="none" aria-hidden="true"><path d="M100 70 C360 20 390 150 270 185 S80 255 220 310 S410 390 390 430" fill="none" stroke="#d7dfce" stroke-width="34" stroke-linecap="round"/><path d="M100 70 C360 20 390 150 270 185 S80 255 220 310 S410 390 390 430" fill="none" stroke="#647c63" stroke-width="2" stroke-dasharray="5 10" stroke-linecap="round"/></svg>
+          <div class="route-stop stop-1" data-stop="0"><button class="stop-button current" aria-label="Visit stop 1: A familiar route"><span class="stop-icon">☀</span><span class="stop-number">01</span></button><span class="stop-label">A familiar route</span></div>
+          <div class="route-stop stop-2" data-stop="1"><button class="stop-button" aria-label="Visit stop 2: A small appreciation"><span class="stop-icon">✳</span><span class="stop-number">02</span></button><span class="stop-label">A small appreciation</span></div>
+          <div class="route-stop stop-3" data-stop="2"><button class="stop-button" aria-label="Visit stop 3: A little note"><span class="stop-icon">✉</span><span class="stop-number">03</span></button><span class="stop-label">A little note</span></div>
+          <div class="route-stop stop-4" data-stop="3"><button class="stop-button" aria-label="Visit stop 4: A keepsake"><span class="stop-icon">🎟</span><span class="stop-number">04</span></button><span class="stop-label">A keepsake</span></div>
+          <div class="moving-bus" id="movingBus" aria-hidden="true"><span class="bus-speech" id="busSpeech">beep beep!</span><svg viewBox="0 0 100 54"><rect x="6" y="7" width="87" height="35" rx="8" fill="#647c63" stroke="#334a52" stroke-width="2"/><rect x="15" y="13" width="19" height="14" rx="2" fill="#d8e6e5"/><rect x="39" y="13" width="19" height="14" rx="2" fill="#d8e6e5"/><g class="bus-passenger"><circle cx="49" cy="19" r="5.3" fill="#d99a72"/><path d="M44 18q1-7 7-5q4 2 3 6l-2-3-6 1z" fill="#51433b"/><circle cx="47" cy="19" r=".65" fill="#334a52"/><circle cx="51" cy="19" r=".65" fill="#334a52"/><path d="M47 22q2 2 4 0" fill="none" stroke="#9c5e50" stroke-width=".8" stroke-linecap="round"/><path class="passenger-arm" d="M53 23l4-5 1-3" fill="none" stroke="#d99a72" stroke-width="2.2" stroke-linecap="round"/><path d="M45 24q4-4 8 0v3h-8z" fill="#bd8068"/></g><rect x="63" y="13" width="19" height="14" rx="2" fill="#d8e6e5"/><path d="M7 31H92V38H7Z" fill="#ebcb78"/><circle cx="25" cy="43" r="8" fill="#334a52"/><circle cx="25" cy="43" r="3.5" fill="#f5f0e6"/><circle cx="76" cy="43" r="8" fill="#334a52"/><circle cx="76" cy="43" r="3.5" fill="#f5f0e6"/></svg></div>
+          <div class="route-cloud cloud-route"></div><div class="route-tree">♣</div>
+        </div>
+        <article class="stop-card" aria-live="polite">
+          <img class="stop-photo" id="stopWatermark" src="assets/photos/photo-1.jpg" alt="Photo for stop 1" loading="eager" decoding="async">
+          <div class="stop-card-top"><span id="stopKicker">STOP 01 / 04</span><span class="card-sparkle">✳</span></div>
+          <h3 id="stopTitle">Some journeys become familiar.</h3>
+          <p id="stopMessage">Same bus, familiar faces, and little moments that make the ride feel less like just a ride.</p>
+          <div class="stop-card-bottom"><span id="stopProgress">01 of 04</span><button class="text-button" id="nextStop">Next stop <span aria-hidden="true">→</span></button></div>
+          <button class="text-button secondary-link" id="viewPhotos">See the little moments ↗</button>
+        </article>
+      </div>
+      <div class="journey-bottom"><span>TAKE THE SCENIC ROUTE</span><div class="journey-links"><button class="text-button" id="goTicket">Skip to the keepsake ↗</button></div></div>
+    </section>
+
+    <section class="stage memories" id="memories" aria-labelledby="memories-title" hidden>
+      <div class="memories-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> LITTLE MOMENTS</p><h2 id="memories-title">A page for the<br><em>little moments.</em></h2></div><p class="section-intro">Four little frames for moments worth keeping, big or small.</p></div>
+      <div class="photo-gallery" aria-label="Four personal photo placeholders">
+        <figure class="photo-frame photo-one"><div class="photo-placeholder" data-photo="0"><span class="photo-number">01</span><span class="photo-doodle">✳</span><span class="photo-caption">A moment to remember</span></div><img src="assets/photos/photo-1.jpg" alt="A personal photo, to be described later" loading="lazy"></figure>
+        <figure class="photo-frame photo-two"><div class="photo-placeholder" data-photo="1"><span class="photo-number">02</span><span class="photo-doodle">☼</span><span class="photo-caption">A little everyday magic</span></div><img src="assets/photos/photo-2.jpg" alt="A personal photo, to be described later" loading="lazy"></figure>
+        <figure class="photo-frame photo-three"><div class="photo-placeholder" data-photo="2"><span class="photo-number">03</span><span class="photo-doodle">✿</span><span class="photo-caption">A good day, somewhere</span></div><img src="assets/photos/photo-3.jpg" alt="A personal photo, to be described later" loading="lazy"></figure>
+        <figure class="photo-frame photo-four"><div class="photo-placeholder" data-photo="3"><span class="photo-number">04</span><span class="photo-doodle">↗</span><span class="photo-caption">One for the memory book</span></div><img src="assets/photos/photo-4.jpg" alt="A personal photo, to be described later" loading="lazy"></figure>
+      </div>
+      <div class="note-area">
+        <div class="note-intro"><span class="note-stamp">JUST<br>BECAUSE</span><div><p class="eyebrow">A NOTE, IN YOUR OWN TIME</p><h3>A thought I wanted<br>to share.</h3><p class="note-hint">Nothing to figure out. Just a few honest words.</p></div></div>
+        <button class="envelope" id="envelopeButton" aria-expanded="false" aria-controls="personalNote"><span class="envelope-back"></span><span class="envelope-letter">A little note for you <span>↗</span></span><span class="envelope-flap"></span><span class="envelope-front"></span><span class="envelope-seal">✳</span></button>
+        <article class="personal-note" id="personalNote" hidden><button class="close-note" id="closeNote" aria-label="Close note">×</button><p class="note-dear" id="noteGreeting">Hey [HER_NAME],</p><div id="noteBody"></div><p class="note-signoff" id="noteSignoff">From,<br>[YOUR_NAME]</p></article>
+      </div>
+      <div class="section-actions"><button class="button button-outline" id="backToRoute">← Back to the route</button><button class="button button-primary" id="toKeepsake">Continue to the keepsake <span aria-hidden="true">→</span></button></div>
+    </section>
+
+    <section class="stage games" id="games" aria-labelledby="games-title" hidden aria-hidden="true">
+      <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> LITTLE PLAY BREAK</p><h2 id="games-title">A tiny game<br><em>for the road.</em></h2></div><p class="section-intro">No scores to prove anything. Just a small excuse to smile for a minute.</p></div>
+      <div class="games-grid">
+        <article class="game-card star-game"><div class="game-icon">✦</div><p class="game-kicker">GAME 01 · QUICK REFLEXES</p><h3>Catch the stars</h3><p>Tap the little stars before they drift away. Can you catch 10?</p><div class="star-play-area" id="starPlayArea" aria-label="Star catching play area"><span class="star-instruction">Press start, then tap the stars ✨</span></div><div class="game-actions"><span class="game-score" id="starScore" aria-live="polite">Stars caught: 0 / 10</span><button class="button button-primary game-button" id="startStars">Start game</button></div></article>
+        <article class="game-card memory-game"><div class="game-icon">♡</div><p class="game-kicker">GAME 02 · MEMORY</p><h3>Little pairs</h3><p>Flip the cards and find matching pairs of friendly little things.</p><div class="memory-board" id="memoryBoard" aria-label="Memory match cards"></div><div class="game-actions"><span class="game-score" id="memoryScore" aria-live="polite">Pairs: 0 / 4</span><button class="button button-outline game-button" id="resetMemory">Shuffle cards</button></div></article>
+        <article class="game-card bus-game"><div class="game-icon">🚌</div><p class="game-kicker">GAME 03 · STEADY HANDS</p><h3>Little bus run</h3><p>Guide the bus past the cones. Tap left or right to dodge them and keep the ride going.</p><div class="bus-run-area" id="busRunArea" tabindex="0" role="application" aria-label="Bus run game. Use left and right arrow keys or the buttons below."><div class="bus-run-sky">✦ &nbsp; ☁ &nbsp; ✧</div><div class="bus-run-road"><span class="road-dash"></span><span class="road-dash"></span><span class="road-dash"></span><span class="road-dash"></span><span class="run-bus" id="runBus">🚌</span><span class="run-score-pop" id="runScorePop"></span></div><div class="bus-run-message" id="busRunMessage">Ready for a gentle little drive?</div></div><div class="bus-run-controls"><button class="button button-outline" id="busLeft" aria-label="Move bus left">← Left</button><button class="button button-primary game-button" id="startBusRun">Start run</button><button class="button button-outline" id="busRight" aria-label="Move bus right">Right →</button></div><div class="game-actions"><span class="game-score" id="busRunScore" aria-live="polite">Distance: 0 · Best: 0</span><span class="game-score">No rush, just dodge!</span></div></article>
+      </div>
+      <div class="section-actions"><button class="button button-outline" id="gamesBack">← Back to the route</button><button class="button button-primary" id="gamesContinue">Back to the little story →</button></div>
+      <p class="closing-line games-closing">Tiny games, zero pressure, good company. <span>✳</span></p>
+    </section>
+
+    <section class="stage keepsake" id="keepsake" aria-labelledby="keepsake-title" hidden>
+      <div class="ticket-heading"><p class="eyebrow"><span class="eyebrow-line"></span> FINAL STOP · GOOD THINGS AHEAD</p><h2 id="keepsake-title">A little thing to<br><em>keep.</em></h2><p class="section-intro">Sometimes the nicest part of a familiar route is the person who quietly makes it more memorable.</p></div>
+      <div class="ticket-wrap" id="ticketWrap">
+        <article class="ticket" aria-label="Personalized friendship keepsake ticket">
+          <div class="ticket-main"><div class="ticket-topline"><span>THE EVERYDAY EXPRESS</span><span class="ticket-star">✳</span></div><p class="ticket-label">A LITTLE KEEPSAKE</p><h3 data-content="herName">[HER_NAME]</h3><div class="ticket-rule"><span></span><span>✳</span><span></span></div><p class="ticket-route" data-content="ticketRoute">Ordinary Days <span>→</span> Special Memories</p><p class="ticket-message" data-content="ticketMessage">Some people make ordinary days a little more special just by being part of them.</p><p class="ticket-support" data-content="ticketSupport">Glad our paths crossed on that bus.</p><div class="ticket-bottom"><span class="ticket-edition" data-content="ticketFooter">FRIENDSHIP EDITION</span><span class="ticket-code">FRIENDS · ALWAYS A GOOD ROUTE</span></div></div>
+          <div class="ticket-stub"><span class="stub-vertical">ONE SMALL MEMORY</span><div class="stub-icon">↗</div><div class="barcode" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="stub-number">FR–001</span></div>
+        </article>
+        <p class="ticket-undertext">For the little moments that quietly become memories.</p>
+      </div>
+      <div class="final-actions"><button class="button button-outline" id="backToPhotos">← Back to the memories</button><button class="button button-primary" id="replayJourney">Take the ride again <span aria-hidden="true">↻</span></button></div>
+      <p class="closing-line">Some people make the everyday a little less ordinary. Thanks for being one of those people. <span>☼</span></p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>AN UNFUSSY LITTLE FRIENDSHIP THING</span><span>MADE WITH CARE <span aria-hidden="true">✳</span></span></footer>
+
+  <aside class="music-player" aria-label="Background music player">
+    <audio id="journeyAudio" preload="metadata" src="assets/audio/song.mp3"></audio>
+    <div class="music-note-icon" aria-hidden="true">♫</div><div class="music-info"><span class="music-title">A song for the ride</span><span class="music-status" id="musicStatus" aria-live="polite">Ready when you are</span></div>
+    <button class="player-button" id="playPause" aria-label="Play music"><span id="playIcon">▶</span></button><button class="player-button mute-button" id="muteButton" aria-label="Mute music" aria-pressed="false">♪</button>
+    <div class="music-timeline"><span id="currentTime">0:00</span><input id="seekBar" type="range" min="0" max="100" value="0" step="0.1" aria-label="Seek through music"><span id="totalTime">--:--</span></div>
+  </aside>
+  <div class="playful-burst" id="playfulBurst" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

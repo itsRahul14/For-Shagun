@@ -1,0 +1,1 @@
+Place photo-1.jpg through photo-4.jpg here. Missing images use built-in placeholders.
